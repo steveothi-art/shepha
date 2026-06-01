@@ -4,7 +4,7 @@
  * Traitement du formulaire de contact + redirection WhatsApp
  */
 
-define('SHEFA_WHATSAPP', '2250759582002');
+define('SHEFA_WHATSAPP', '2250576293783');
 
 // Nettoyage des données
 function clean(string $input): string {
