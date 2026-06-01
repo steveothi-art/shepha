@@ -250,21 +250,6 @@ img { display: block; max-width: 100%; }
 .nav-cta svg { width: 13px; height: 13px; transition: transform 0.3s; }
 .nav-cta:hover { transform: translateY(-2px); box-shadow: 0 12px 35px rgba(201,146,42,0.35); }
 .nav-cta:hover svg { transform: translateX(3px); }
-.hamburger {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-        /* ← margin-left: auto supprimé, géré par .nav-links */
-}
-.hamburger span {
-  width: 24px; height: 2px;
-  background: var(--ink);
-  border-radius: 2px;
-  transition: 0.3s;
-}
-.hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5.5px, 5.5px); }
-.hamburger.active span:nth-child(2) { transform: rotate(-45deg) translate(5.5px, -5.5px); }
 
 
 /* ---- HERO ---- */
